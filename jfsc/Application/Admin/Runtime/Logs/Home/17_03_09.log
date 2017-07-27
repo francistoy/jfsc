@@ -1,0 +1,506 @@
+[ 2017-03-09T09:25:11+08:00 ] ::1 /jfsc/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+
+[ 2017-03-09T09:25:11+08:00 ] ::1 /jfsc/admin.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-03-09T09:25:12+08:00 ] ::1 /jfsc/admin.php/home/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-03-09T09:25:19+08:00 ] ::1 /jfsc/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-03-09T09:25:20+08:00 ] ::1 /jfsc/admin.php?c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-03-09T09:25:20+08:00 ] ::1 /jfsc/admin.php/home/index/topnav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: username E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\51ee4addad4952eec3b128f2c7b20c19.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-03-09T09:25:20+08:00 ] ::1 /jfsc/admin.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `jf_type` [ RunTime:0.003964s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=0 )  [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-03-09T09:25:20+08:00 ] ::1 /jfsc/admin.php/home/index/rightt.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: username E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\b15ec853da18062aef952a5d39180901.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2017-03-09T09:25:22+08:00 ] ::1 /jfsc/admin.php/home/slideshow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `jf_slide` [ RunTime:0.003857s ]
+SQL: SELECT * FROM `jf_slide` WHERE `status` <> -1  [ RunTime:0.000315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-03-09T09:25:25+08:00 ] ::1 /jfsc/admin.php?c=Protype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `jf_type` [ RunTime:0.003848s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jf_type` WHERE ( type_pid=0 ) LIMIT 1   [ RunTime:0.000287s ]
+NOTIC: [8] Undefined index: page E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=0 ) ORDER BY type_sort asc LIMIT 0,5   [ RunTime:0.000265s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jf_type` WHERE ( type_pid=0 ) LIMIT 1   [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index: page E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=68 )  [ RunTime:0.000235s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=74 )  [ RunTime:0.000210s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=79 )  [ RunTime:0.000207s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=53 )  [ RunTime:0.000190s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=59 )  [ RunTime:0.000203s ]
+NOTIC: [8] Undefined offset: 5 E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\ProtypeController.class.php 第 128 行.
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid= )  [ RunTime:0.000156s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `jf_type` WHERE ( type_pid= ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: username E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\d2316413c7d19d992170d886f262453f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2017-03-09T10:23:17+08:00 ] ::1 /jfsc/admin.php?c=Protype&a=edit&id=79
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `jf_type` [ RunTime:0.004234s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_id=79 )  [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-03-09T10:23:19+08:00 ] ::1 /jfsc/admin.php?c=Protype&a=edit&id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `jf_type` [ RunTime:0.003719s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_id=53 )  [ RunTime:0.000262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-03-09T10:27:08+08:00 ] ::1 /jfsc/admin.php?c=Protype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `jf_type` [ RunTime:0.004709s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jf_type` WHERE ( type_pid=0 ) LIMIT 1   [ RunTime:0.000309s ]
+NOTIC: [8] Undefined index: page E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=0 ) ORDER BY type_sort asc LIMIT 0,5   [ RunTime:0.000273s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jf_type` WHERE ( type_pid=0 ) LIMIT 1   [ RunTime:0.000220s ]
+NOTIC: [8] Undefined index: page E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=68 )  [ RunTime:0.000249s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=74 )  [ RunTime:0.000238s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=79 )  [ RunTime:0.000236s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=53 )  [ RunTime:0.000236s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=59 )  [ RunTime:0.000235s ]
+NOTIC: [8] Undefined offset: 5 E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\ProtypeController.class.php 第 128 行.
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid= )  [ RunTime:0.000167s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `jf_type` WHERE ( type_pid= ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: username E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\d2316413c7d19d992170d886f262453f.php 第 85 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-03-09T10:27:09+08:00 ] ::1 /jfsc/admin.php?c=Product&a=profenlei&id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `jf_type` [ RunTime:0.024057s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_id=53 )  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=53 )  [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `jf_prd` [ RunTime:0.067403s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jf_prd` WHERE ( cid=53 AND status=1 ) LIMIT 1   [ RunTime:0.000346s ]
+NOTIC: [8] Undefined index: page E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\CommonController.class.php 第 30 行.
+SQL: SELECT * FROM `jf_prd` WHERE ( cid=53 AND status=1 ) ORDER BY prd_id desc LIMIT 0,5   [ RunTime:0.000431s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jf_prd` WHERE ( cid=53 AND status=1 ) LIMIT 1   [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: page E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\CommonController.class.php 第 30 行.
+NOTIC: [8] Undefined index: type E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\ProductController.class.php 第 17 行.
+NOTIC: [8] Undefined index: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\ProductController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: typepid E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\ProductController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 30 行.
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 30 行.
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 30 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 93 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 94 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 95 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 95 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 96 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 96 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 108 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2017-03-09T10:27:11+08:00 ] ::1 /jfsc/admin.php?c=Product&p_Name=&a=profenlei&type=&cid=53&id=53&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `jf_type` [ RunTime:0.003977s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_id=53 )  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=53 )  [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `jf_prd` [ RunTime:0.015956s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jf_prd` WHERE ( cid=53 AND status=1 ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT * FROM `jf_prd` WHERE ( cid=53 AND status=1 ) ORDER BY prd_id desc LIMIT 5,5   [ RunTime:0.000333s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jf_prd` WHERE ( cid=53 AND status=1 ) LIMIT 1   [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: typepid E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\ProductController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 30 行.
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 30 行.
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 30 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 93 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 94 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 95 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 95 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 96 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 96 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 108 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2017-03-09T10:27:13+08:00 ] ::1 /jfsc/admin.php?c=Product&p_Name=&a=profenlei&type=&cid=53&id=53&page=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `jf_type` [ RunTime:0.003744s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_id=53 )  [ RunTime:0.000276s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=53 )  [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `jf_prd` [ RunTime:0.004625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jf_prd` WHERE ( cid=53 AND status=1 ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `jf_prd` WHERE ( cid=53 AND status=1 ) ORDER BY prd_id desc LIMIT 10,5   [ RunTime:0.000344s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jf_prd` WHERE ( cid=53 AND status=1 ) LIMIT 1   [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: typepid E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\ProductController.class.php 第 49 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 30 行.
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 30 行.
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 30 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 93 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 94 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 95 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 95 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 96 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 96 行.
+NOTIC: [8] Undefined variable: type E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 108 行.
+NOTIC: [8] Undefined variable: p_Name E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\c2f1e29f9551e0a3a58a143c9ede18e3.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2017-03-09T10:27:25+08:00 ] ::1 /jfsc/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-03-09T10:27:25+08:00 ] ::1 /jfsc/admin.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2017-03-09T10:27:25+08:00 ] ::1 /jfsc/admin.php/home/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2017-03-09T10:30:16+08:00 ] ::1 /jfsc/admin.php?c=Product&a=edit&prd_id=67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `jf_type` [ RunTime:0.004037s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=0 )  [ RunTime:0.000302s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=53 )  [ RunTime:0.000236s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=59 )  [ RunTime:0.000233s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=68 )  [ RunTime:0.000240s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=74 )  [ RunTime:0.000230s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=79 )  [ RunTime:0.000234s ]
+NOTIC: [8] Undefined offset: 5 E:\phpstudy\WWW\jfsc\Application\Admin\Home\Controller\ProtypeController.class.php 第 128 行.
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid= )  [ RunTime:0.000151s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `jf_type` WHERE ( type_pid= ) 
+SQL: SHOW COLUMNS FROM `jf_product` [ RunTime:0.003541s ]
+ERR: 1146:Table 'jfsc.jf_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jf_product`
+SQL: SHOW COLUMNS FROM `jf_prd` [ RunTime:0.003729s ]
+SQL: SELECT * FROM `jf_prd` WHERE ( prd_id=67 ) LIMIT 1   [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `jf_prdkeyword` [ RunTime:0.037687s ]
+SQL: SELECT * FROM `jf_prdkeyword` WHERE ( prdkeyword_id=1 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT * FROM `jf_prdkeyword` WHERE ( prdkeyword_id=1 ) LIMIT 1   [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Use of undefined constant type_name - assumed 'type_name' E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 68 行.
+NOTIC: [8] Undefined offset: 2 E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 83 行.
+NOTIC: [8] Undefined offset: 3 E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 84 行.
+NOTIC: [8] Undefined offset: 4 E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 85 行.
+NOTIC: [8] Undefined offset: 5 E:\phpstudy\WWW\jfsc\Application\Admin\Runtime\Cache\Home\4d35a4d06e4d18b7fadb4eac14e5a02d.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
