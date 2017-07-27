@@ -1,0 +1,41 @@
+[ 2017-03-02T10:42:33+08:00 ] ::1 /jfsc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011957s ]
+NOTIC: [8] Undefined index: Hukcuser E:\phpstudy\WWW\jfsc\Application\Index\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Use of undefined constant neq - assumed 'neq' E:\phpstudy\WWW\jfsc\Application\Index\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `jf_type` [ RunTime:0.036317s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=0 ) ORDER BY type_sort asc  [ RunTime:0.014721s ]
+SQL: SHOW COLUMNS FROM `jf_slide` [ RunTime:0.033776s ]
+SQL: SELECT * FROM `jf_slide`  [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `jf_prd` [ RunTime:0.076367s ]
+SQL: SELECT * FROM `jf_prd` WHERE `status` <> -1 ORDER BY prd_id desc LIMIT 8   [ RunTime:0.000835s ]
+SQL: SELECT * FROM `jf_prd` WHERE `status` <> -1 ORDER BY clicknum desc LIMIT 8   [ RunTime:0.000319s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=68 )  [ RunTime:0.000197s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=74 )  [ RunTime:0.000185s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=79 )  [ RunTime:0.000181s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=53 )  [ RunTime:0.000183s ]
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid=59 )  [ RunTime:0.000176s ]
+NOTIC: [8] Undefined offset: 5 E:\phpstudy\WWW\jfsc\Application\Index\Home\Controller\IndexController.class.php 第 37 行.
+SQL: SELECT * FROM `jf_type` WHERE ( type_pid= )  [ RunTime:0.018628s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `jf_type` WHERE ( type_pid= ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Undefined variable: Hukcuser E:\phpstudy\WWW\jfsc\Application\Index\Runtime\Cache\Home\2955b94ad7a1053942104bcab546ee6e.php 第 182 行.
+NOTIC: [8] Undefined variable: Hukcuser E:\phpstudy\WWW\jfsc\Application\Index\Runtime\Cache\Home\2955b94ad7a1053942104bcab546ee6e.php 第 184 行.
+NOTIC: [8] Undefined variable: Hukcuser E:\phpstudy\WWW\jfsc\Application\Index\Runtime\Cache\Home\2955b94ad7a1053942104bcab546ee6e.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.078880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.078985s ]
+
